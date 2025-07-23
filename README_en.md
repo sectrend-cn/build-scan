@@ -37,35 +37,35 @@ java -jar build_scan.jar \
   --outputPath=/path/to/temp/output
 ```
 
-| Parameter | Instruction | Required | Notes |
-|------|------|----------|------|
-| `--username` | Web Username（Email） | ✅ | |
-| `--password` | Password | ✅ | |
-| `--taskDir` | Scan target path（Absolute） | ✅ | |
-| `--outputPath` | Path for log and temporary files | ❌ | Default is the system's user directory |
-| `--logLevel` | Log level：INFO / DEBUG / TRACE | ❌ | Default:INFO |
+| Parameter      | Instruction                      | Required | Notes                                  |
+| -------------- | -------------------------------- | -------- | -------------------------------------- |
+| `--username`   | Web Username（Email）            | ✅       |                                        |
+| `--password`   | Password                         | ✅       |                                        |
+| `--taskDir`    | Scan target path（Absolute）     | ✅       |                                        |
+| `--outputPath` | Path for log and temporary files | ❌       | Default is the system's user directory |
+| `--logLevel`   | Log level：INFO / DEBUG / TRACE  | ❌       | Default:INFO                           |
 
 ## 📦 Features & Description
 
-| Feature | Description |
-|------|----------|
-| Fingerprint Generation | Generates file hashes and code fragment information |
-| Package Manager | Dynamically identifies and invokes language detectors |
-| Task Creation | Interfaces with web platform for task uploads |
-| Log Level | Supports detailed logs and troubleshooting diagnostics |
+| Feature                | Description                                            |
+| ---------------------- | ------------------------------------------------------ |
+| Fingerprint Generation | Generates file hashes and code fragment information    |
+| Package Manager        | Dynamically identifies and invokes language detectors  |
+| Task Creation          | Interfaces with web platform for task uploads          |
+| Log Level              | Supports detailed logs and troubleshooting diagnostics |
 
 ---
 
 ### 🌐 Supported Package Managers
 
-| Package Manager | Language | Build Supported | Notes |
-|----------|------|----------|----------|
-| Maven | Java | ✅ | Use `mvn dependency:tree`，or directly analyze `pom.xml` |
-| Pip | Python | ✅ | Analyze `setup.py`、`requirements.txt` |
-| Pipenv | Python | ✅ | Analyze `Pipfile`、`Pipfile.lock` |
-| Go mod | Go | ✅ | Check `go.mod`，depend on `go` executables |
-| Go dep | Go | ❌（only non-build） | Analyze `Gopkg.lock` |
-| Go vendor | Go | ❌（only non-build） | Analyze `vendor.json` |
+| Package Manager | Language | Build Supported      |
+| --------------- | -------- | -------------------- |
+| Maven           | Java     | ✅                   |
+| Pip             | Python   | ✅                   |
+| Pipenv          | Python   | ✅                   |
+| Go mod          | Go       | ✅                   |
+| Go dep          | Go       | ❌（only non-build） |
+| Go vendor       | Go       | ❌（only non-build） |
 
 ---
 

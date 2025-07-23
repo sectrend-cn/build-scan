@@ -58,14 +58,14 @@ java -jar build_scan.jar \
 
 ### 🌐 支持的包管理器
 
-| 包管理器  | 语言   | 构建支持       | 检测说明                                         |
-| --------- | ------ | -------------- | ------------------------------------------------ |
-| Maven     | Java   | ✅             | 使用 `mvn dependency:tree`，或直接解析 `pom.xml` |
-| Pip       | Python | ✅             | 解析 `setup.py`、`requirements.txt`              |
-| Pipenv    | Python | ✅             | 解析 `Pipfile`、`Pipfile.lock`                   |
-| Go mod    | Go     | ✅             | 检查 `go.mod`，依赖 `go` 可执行文件              |
-| Go dep    | Go     | ❌（仅非构建） | 解析 `Gopkg.lock`                                |
-| Go vendor | Go     | ❌（仅非构建） | 解析 `vendor.json`                               |
+| 包管理器  | 语言   | 构建支持       |
+| --------- | ------ | -------------- |
+| Maven     | Java   | ✅             |
+| Pip       | Python | ✅             |
+| Pipenv    | Python | ✅             |
+| Go mod    | Go     | ✅             |
+| Go dep    | Go     | ❌（仅非构建） |
+| Go vendor | Go     | ❌（仅非构建） |
 
 ---
 
