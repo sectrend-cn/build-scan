@@ -43,11 +43,7 @@ java -jar build_scan.jar \
 | `--outputPath` | 日志与临时文件输出路径         | ❌       | 默认在系统用户目录 |
 | `--logLevel`   | 日志等级：INFO / DEBUG / TRACE | ❌       | 默认 INFO          |
 
----
-
-## 🧱 技术架构
-
-### 📦 功能结构
+## 📦 功能描述
 
 | 功能     | 功能描述                           |
 | -------- | ---------------------------------- |
@@ -102,4 +98,4 @@ java -jar build_scan.jar \
 
 - 官网：[sectrend.com.cn](https://www.sectrend.com.cn/CleanSourceSCA)
 
-- 邮箱：<Info@sectrend.com.cn>
+- 邮箱：Info@sectrend.com.cn
