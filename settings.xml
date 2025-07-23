@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+  <localRepository>/data/repository</localRepository>
+  <pluginGroups>
+  </pluginGroups>
+
+  <proxies>
+  </proxies>
+
+  <servers>
+  </servers>
+
+  <mirrors>
+	  <mirror>
+		  <id>nexus</id>
+		  <mirrorOf>*</mirrorOf>
+		  <name>Nexus Repository</name>
+		  <url>http://192.168.100.10:8081/repository/maven-public/</url>
+	  </mirror>
+	  <mirror>
+	    <id>repo.jenkins-ci.org</id>
+	    <url>https://repo.jenkins-ci.org/public/</url>
+	    <mirrorOf>m.g.o-public</mirrorOf>
+	  </mirror>
+  </mirrors>
+
+  <profiles>
+    <profile>
+      <id>sectrend-group</id> 
+      <repositories>
+        <repository>
+          <id>sectrend-private</id> 
+          <url>http://192.168.100.10:8081/repository/maven-public/</url> 
+          <releases>
+            <enabled>true</enabled>
+          </releases> 
+          <snapshots>
+            <enabled>true</enabled> 
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+      </profile>    
+      <profile>
+	        <id>jenkins</id>
+		  <activation>
+		    <activeByDefault>true</activeByDefault>
+		  </activation>
+		  <repositories>
+		    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+</profile>
+    <!--    <profile>
+      <id>aliyun</id>
+      <repositories>
+        <repository>
+          <id>aliyun</id>
+          <url>http://192.168.100.10:8081/repository/aliyun/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+    <profile>
+      <id>maven-central</id>
+      <repositories>
+        <repository>
+          <id>maven-central</id>
+          <url>http://192.168.100.10:8081/repository/maven-central/</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>     -->
+  </profiles>
+ 
+  <activeProfiles>
+    <activeProfile>jenkins</activeProfile>
+    <activeProfile>sectrend-group</activeProfile>
+  </activeProfiles>
+</settings>
+
