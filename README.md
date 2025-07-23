@@ -1,5 +1,7 @@
 # buildscan 工具
 
+[English](./README_en.md) | 中文
+
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://cleansource.cn) [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]() [![Java](https://img.shields.io/badge/java-8+-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()![Crates.io License](https://img.shields.io/crates/l/gpl-3.0)
 
 🔍 buildscan 是 CleanSource SCA社区版的CLI 工具，包含包管理器依赖识别、源码指纹生成两个功能模块，独立于扫描引擎可在本地完成依赖识别与指纹生成，并将识别结果发送给扫描引擎，引擎会通过指纹文件进行源码层面的成分分析，同时识别开源组件的合规与安全风险。
