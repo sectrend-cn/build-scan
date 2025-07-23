@@ -2,23 +2,17 @@
 
 English | [中文](./README.md)
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://cleansource.cn) [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]() [![Java](https://img.shields.io/badge/java-8+-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()![Crates.io License](https://img.shields.io/crates/l/gpl-3.0)
-
-
+[![Version](https://img.shields.io/badge/version-4.1.0-blue.svg)](https://cleansource.cn) [![Java](https://img.shields.io/badge/java-8+-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]() ![Crates.io License](https://img.shields.io/badge/License-GPL%20v3-%23FF4136.svg)
 
 🔍 BuildScan is the CLI tool for the CleanSource SCA Community Edition, featuring two functional modules: package manager dependency identification and source code fingerprint generation. Operating independently of the scanning engine, it can locally complete dependency identification and fingerprint generation, then send the results to the scanning engine. The engine will perform component analysis at the source code level using the fingerprint files, while also identifying compliance and security risks in open-source components.
-
-
 
 ## 🚀 Instructions
 
 This project open-source the core CLI tool, allowing you to perform customization based on the code to meet specific requirements or integrate it into internal enterprise systems.
 
-
 ### 🧰 Local Build and Packaging
 
 The project uses **Maven** as the build tool and requires **JDK 8+** to run.
-
 
 ```bash
 git clone https://github.com/your-org/cleansource-sca-cli.git
@@ -84,7 +78,6 @@ java -jar build_scan.jar \
 
 ---
 
-
 ## 📄 Notes
 
 This tool, as part of the CleanSource SCA Community Edition, is licensed solely for internal enterprise use or research purposes. For commercial licensing or deep customization, please contact our official team.
@@ -105,4 +98,4 @@ Reference：[Documentation](https://cleansource-ce.sectrend.com.cn:9988/document
 
   - Wechat: Sectrend
 
-- Email：info@sectrend.com.cn
+- Email：<info@sectrend.com.cn>
