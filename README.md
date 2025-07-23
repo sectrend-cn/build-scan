@@ -2,21 +2,15 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://cleansource.cn) [![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]() [![Java](https://img.shields.io/badge/java-8+-orange.svg)]() [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)]()![Crates.io License](https://img.shields.io/crates/l/gpl-3.0)
 
-
-
 🔍 buildscan 是 CleanSource SCA社区版的CLI 工具，包含包管理器依赖识别、源码指纹生成两个功能模块，独立于扫描引擎可在本地完成依赖识别与指纹生成，并将识别结果发送给扫描引擎，引擎会通过指纹文件进行源码层面的成分分析，同时识别开源组件的合规与安全风险。
-
-
 
 ## 🚀 使用介绍
 
 本项目将开放核心 CLI 工具的源代码，您可以基于源码进行二次开发与扩展，以满足自定义需求或集成到企业内部系统中。
 
-
 ### 🧰 本地编译打包
 
 项目使用 **Maven** 作为构建工具，运行需要 **JDK 8+**。
-
 
 ```bash
 git clone https://github.com/your-org/cleansource-sca-cli.git
@@ -86,7 +80,6 @@ java -jar build_scan.jar \
 
 ---
 
-
 ## 📄 说明
 
 该工具作为清源 SCA 社区版的一部分，仅授权用于企业内部自用或研究用途。如需商业授权或深度定制，请联系官方团队。
@@ -109,9 +102,4 @@ java -jar build_scan.jar \
 
 - 官网：[sectrend.com.cn](https://www.sectrend.com.cn/CleanSourceSCA)
 
-- 邮箱：Info@sectrend.com.cn
-
-
-
-
-
+- 邮箱：<Info@sectrend.com.cn>
