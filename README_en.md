@@ -15,8 +15,8 @@ This project open-source the core CLI tool, allowing you to perform customizatio
 The project uses **Maven** as the build tool and requires **JDK 8+** to run.
 
 ```bash
-git clone https://github.com/your-org/cleansource-sca-cli.git
-cd cleansource-sca-cli
+git clone https://github.com/sectrend-cn/build-scan.git
+cd build-scan
 mvn clean package -DskipTests
 ```
 

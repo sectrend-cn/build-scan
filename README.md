@@ -15,8 +15,8 @@
 项目使用 **Maven** 作为构建工具，运行需要 **JDK 8+**。
 
 ```bash
-git clone https://github.com/your-org/cleansource-sca-cli.git
-cd cleansource-sca-cli
+git clone https://github.com/sectrend-cn/build-scan.git
+cd build-scan
 mvn clean package -DskipTests
 ```
 
