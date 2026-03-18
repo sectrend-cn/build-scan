@@ -84,7 +84,7 @@ java -jar build_scan.jar \
 
 ### ✅ 欢迎使用清源 SCA 社区版服务
 
-登录 [清源 SCA 社区版](https://cleansource-ce.sectrend.com.cn:9988/) 平台，点击右侧下载图标，获取 `buildscan.jar`。
+登录 [清源 SCA 社区版](https://cleansource-ce.sectrend.com.cn) 平台，点击右侧下载图标，获取 `buildscan.jar`。
 
 具体可参考：[帮助文档](https://cleansource-ce.sectrend.com.cn:9988/document/zh/cli-guide/introduction.html)
 
