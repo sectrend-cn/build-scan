@@ -84,7 +84,7 @@ This tool, as part of the CleanSource SCA Community Edition, is licensed solely 
 
 ### ✅ Welcome to CleanSource SCA Community Edition
 
-Login [CleanSource SCA Community Edition](https://cleansource-ce.sectrend.com.cn:9988/) , Click the download icon on the right，download `buildscan.jar`。
+Login [CleanSource SCA Community Edition](https://cleansource-ce.sectrend.com.cn/) , Click the download icon on the right，download `buildscan.jar`。
 
 Reference：[Documentation](https://cleansource-ce.sectrend.com.cn:9988/document/zh/cli-guide/introduction.html)
 
